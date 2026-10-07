@@ -1,15 +1,88 @@
 html{
-    background:lightblue;
+    background:white;
+    font-size: 18px;
 }
 h2{
-    color:orange
+    color:black;
 }
 .skill-section{
-    color:red
+    color:black;
 }
 .contact-section{
-    color:blue  
+    color:black;  
 }
 #main {
-    color:black
+    color:white;
+}
+h1{
+    text-align: center;
+}
+#para1{
+    text-align: center;
+    color :white;
+}
+
+.namebox{
+    background-color: rgb(7, 4, 33);
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+.aboutbox{
+    background-color:white;
+    border: 3px solid black;
+    padding: 20px;
+    margin : 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px;
+}
+.sectionbox{
+    background-color:white;
+    border: 3px solid black;
+    padding: 20px;
+    margin : 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px;
+}
+
+.contactbox{
+    background-color:white;
+    border: 3px solid black;
+    padding: 20px;
+    margin : 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px;
+    
+}
+
+.linkbox{
+    background-color:white;
+    border: 3px solid black;
+    padding: 20px;
+    margin : 20px;
+    border-radius: 0px;
+    box-shadow: 2px 2px;
+
+}
+
+table th{
+    background-color: gray;
+    height: 50px;
+    width: 400px;
+}
+
+table tr{
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
 }
